@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+}
+
+div {
+    padding: 15px;
+}
+div > img {
+    max-width: 40%;
+    align-self: center;
+}
+
+button {
+    margin-left: 10px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-button img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+}
+
+.whatsapp-button a i {
+    margin-top: 3px;
+}
